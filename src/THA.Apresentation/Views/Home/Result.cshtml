@@ -1,0 +1,53 @@
+﻿@model THA.Domain.Result
+@{
+    ViewData["Title"] = "Result";
+}
+
+<div class="col-md-12">
+    <center>
+        <div class="col-md-12 alert alert-success">
+            <h2>Lucro total: @Model.ProfitTotal</h2>
+        </div>
+        <div class="col-md-12 alert alert-danger">
+            <h2>Gasto total: @Model.WasteTotal</h2>
+        </div>
+        <div class="col-md-12 alert alert-warning">
+            <h2>Pagamento pra cada: @Model.ProfitParcial</h2>
+        </div>
+    </center>
+    <div class="col-md-12">
+        <div class="container col-md-3">
+            @if (!String.IsNullOrEmpty(Model.FirstAnalysers.Message))
+            {
+                <h4>@Model.FirstAnalysers.Character</h4>
+                <h4 class="alert alert-danger">Gastou: @Model.FirstAnalysers.Suplies</h4>
+                <h4 class="alert alert-success">Recebe: @Model.FirstAnalysers.Payback</h4>
+            }
+        </div>
+        <div class="container col-md-3">
+            @if (!String.IsNullOrEmpty(Model.SecondAnalysers.Message))
+            {
+                <h4>@Model.SecondAnalysers.Character</h4>
+                <h4 class="alert alert-danger">Gastou: @Model.SecondAnalysers.Suplies</h4>
+                <h4 class="alert alert-success">Recebe: @Model.SecondAnalysers.Payback</h4>
+            }
+        </div>
+        <div class="container col-md-3">
+            @if (!String.IsNullOrEmpty(Model.ThirdAnalysers.Message))
+            {
+                <h4>@Model.ThirdAnalysers.Character</h4>
+                <h4 class="alert alert-danger">Gastou: @Model.ThirdAnalysers.Suplies</h4>
+                <h4 class="alert alert-success">Recebe: @Model.ThirdAnalysers.Payback</h4>
+            }
+        </div>
+        <div class="container col-md-3">
+            @if (!String.IsNullOrEmpty(Model.FourthAnalysers.Message))
+            {
+                <h4>@Model.FourthAnalysers.Character</h4>
+                <h4 class="alert alert-danger">Gastou: @Model.FourthAnalysers.Suplies</h4>
+                <h4 class="alert alert-success">Recebe: @Model.FourthAnalysers.Payback</h4>
+            }
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,14 @@
+D:\GIT\PessoalGIT\TibiaAnalyzer\TibiaHuntAnalyser\src\THA.Util\bin\Debug\netcoreapp2.1\THA.Util.deps.json
+D:\GIT\PessoalGIT\TibiaAnalyzer\TibiaHuntAnalyser\src\THA.Util\bin\Debug\netcoreapp2.1\THA.Util.dll
+D:\GIT\PessoalGIT\TibiaAnalyzer\TibiaHuntAnalyser\src\THA.Util\bin\Debug\netcoreapp2.1\THA.Domain.dll
+D:\GIT\PessoalGIT\TibiaAnalyzer\TibiaHuntAnalyser\src\THA.Util\bin\Debug\netcoreapp2.1\THA.Domain.pdb
+D:\GIT\PessoalGIT\TibiaAnalyzer\TibiaHuntAnalyser\src\THA.Util\obj\Debug\netcoreapp2.1\THA.Util.csprojAssemblyReference.cache
+D:\GIT\PessoalGIT\TibiaAnalyzer\TibiaHuntAnalyser\src\THA.Util\obj\Debug\netcoreapp2.1\THA.Util.csproj.CoreCompileInputs.cache
+D:\GIT\PessoalGIT\TibiaAnalyzer\TibiaHuntAnalyser\src\THA.Util\obj\Debug\netcoreapp2.1\THA.Util.AssemblyInfoInputs.cache
+D:\GIT\PessoalGIT\TibiaAnalyzer\TibiaHuntAnalyser\src\THA.Util\obj\Debug\netcoreapp2.1\THA.Util.AssemblyInfo.cs
+D:\GIT\PessoalGIT\TibiaAnalyzer\TibiaHuntAnalyser\src\THA.Util\obj\Debug\netcoreapp2.1\THA.Util.csproj.CopyComplete
+D:\GIT\PessoalGIT\TibiaAnalyzer\TibiaHuntAnalyser\src\THA.Util\bin\Debug\netcoreapp2.1\THA.Util.pdb
+D:\GIT\PessoalGIT\TibiaAnalyzer\TibiaHuntAnalyser\src\THA.Util\bin\Debug\netcoreapp2.1\Microsoft.AspNetCore.Http.Abstractions.dll
+D:\GIT\PessoalGIT\TibiaAnalyzer\TibiaHuntAnalyser\src\THA.Util\bin\Debug\netcoreapp2.1\Microsoft.AspNetCore.Http.Abstractions.xml
+D:\GIT\PessoalGIT\TibiaAnalyzer\TibiaHuntAnalyser\src\THA.Util\obj\Debug\netcoreapp2.1\THA.Util.dll
+D:\GIT\PessoalGIT\TibiaAnalyzer\TibiaHuntAnalyser\src\THA.Util\obj\Debug\netcoreapp2.1\THA.Util.pdb
