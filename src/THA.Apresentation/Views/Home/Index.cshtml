@@ -2,35 +2,41 @@
 @{
     ViewData["Title"] = "Home Page";
 }
-<div class="col-md-offset-2 col-md-10">
-    @using (Html.BeginForm("SaveResult", "Home", FormMethod.Post))
-    {
-        <div class="col-md-offset-2 col-md-5 text-center">
-            <h1><b>Instruções</b></h1>
-            <p><b>Copia a mensagem completa do analyser enviado para você, junto com o nome da pessoa que enviou, cola aqui e seja feliz.</b></p>
-        </div>
-        <div class="container col-md-9">
-            <div class="form-group">
-                <b>Player 1</b>
-                @Html.TextBoxFor(model => model.FirstAnalysers.Message, string.Empty, new { @class = "form-control" })
+    <div class="col-md-offset-2 col-md-10">
+        @using (Html.BeginForm("SaveResult", "Home", FormMethod.Post))
+        {
+
+            <div class="col-md-offset-2 col-md-5 text-center">
+                <h1><b>Instruções</b></h1>
+                <p><b>Copia a mensagem completa do analyser enviado para você, junto com o nome da pessoa que enviou, cola aqui e seja feliz.</b></p>
             </div>
-            <div class="form-group">
-                <b>Player 2</b>
-                @Html.TextBoxFor(model => model.SecondAnalysers.Message, string.Empty, new { @class = "form-control" })
+            <div class="container col-md-9">
+                <div class="form-group">
+                    <b>Player 1</b>
+                    @Html.TextBoxFor(model => model.FirstAnalysers.Message, string.Empty, new { @class = "form-control" })
+                </div>
+                <div class="form-group">
+                    <b>Player 2</b>
+                    @Html.TextBoxFor(model => model.SecondAnalysers.Message, string.Empty, new { @class = "form-control" })
+                </div>
+                <div class="form-group">
+                    <b>Player 3</b>
+                    @Html.TextBoxFor(model => model.ThirdAnalysers.Message, string.Empty, new { @class = "form-control" })
+                </div>
+                <div class="form-group">
+                    <b>Player 4</b>
+                    @Html.TextBoxFor(model => model.FourthAnalysers.Message, string.Empty, new { @class = "form-control" })
+                </div>
+                <center>
+                    <input type="submit" class="btn btn-success" value="Calcular" />
+                </center>
+                <div class="col-md-8 text-center col-md-offset-2">
+                    <h4>Gostou? Me manda 10k - Gabi Tolentino / Honbra</h4>
+                    <img src="~/images/gabiTolentinoGif.gif" />
+                </div>
             </div>
-            <div class="form-group">
-                <b>Player 3</b>
-                @Html.TextBoxFor(model => model.ThirdAnalysers.Message, string.Empty, new { @class = "form-control" })
-            </div>
-            <div class="form-group">
-                <b>Player 4</b>
-                @Html.TextBoxFor(model => model.FourthAnalysers.Message, string.Empty, new { @class = "form-control" })
-            </div>
-            <center>
-                <input type="submit" class="btn btn-success" value="Calcular" />
-            </center>
-        </div>
-    }
-</div>
+           
+        }
+    </div>
 
 
