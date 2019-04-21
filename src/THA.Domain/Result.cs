@@ -83,6 +83,9 @@ namespace THA.Domain
                 this.ProfitParcial = (total - waste) / players;
                 int porcentagem = 0;
 
+                if (waste == 0)
+                    waste = 1;
+
                 if (!String.IsNullOrEmpty(this.FirstAnalysers.Message))
                 {
                     porcentagem = (this.FirstAnalysers.Suplies  * 100) / waste;
