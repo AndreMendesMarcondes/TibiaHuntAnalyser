@@ -7,8 +7,6 @@ D:\GIT\PessoalGIT\TibiaAnalyzer\TibiaHuntAnalyser\test\NUnitTestProject1\bin\Deb
 D:\GIT\PessoalGIT\TibiaAnalyzer\TibiaHuntAnalyser\test\NUnitTestProject1\bin\Debug\netcoreapp2.1\NUnitTestProject1.runtimeconfig.dev.json
 D:\GIT\PessoalGIT\TibiaAnalyzer\TibiaHuntAnalyser\test\NUnitTestProject1\bin\Debug\netcoreapp2.1\NUnitTestProject1.dll
 D:\GIT\PessoalGIT\TibiaAnalyzer\TibiaHuntAnalyser\test\NUnitTestProject1\bin\Debug\netcoreapp2.1\NUnitTestProject1.pdb
-D:\GIT\PessoalGIT\TibiaAnalyzer\TibiaHuntAnalyser\test\NUnitTestProject1\bin\Debug\netcoreapp2.1\Microsoft.Data.Tools.Schema.Sql.UnitTesting.dll
-D:\GIT\PessoalGIT\TibiaAnalyzer\TibiaHuntAnalyser\test\NUnitTestProject1\bin\Debug\netcoreapp2.1\Microsoft.Data.Tools.Schema.Sql.UnitTestingAdapter.dll
 D:\GIT\PessoalGIT\TibiaAnalyzer\TibiaHuntAnalyser\test\NUnitTestProject1\bin\Debug\netcoreapp2.1\THA.Domain.dll
 D:\GIT\PessoalGIT\TibiaAnalyzer\TibiaHuntAnalyser\test\NUnitTestProject1\bin\Debug\netcoreapp2.1\THA.Domain.pdb
 D:\GIT\PessoalGIT\TibiaAnalyzer\TibiaHuntAnalyser\test\NUnitTestProject1\obj\Debug\netcoreapp2.1\NUnitTestProject1.csprojAssemblyReference.cache

@@ -2,15 +2,27 @@
 @{
     ViewData["Title"] = "Home Page";
 }
-    <div class="col-md-offset-2 col-md-10">
+    <div class="col-md-5">
+        <div class="col-md-12 text-center">
+            <h1><b>Instruções em vídeo</b></h1>
+            <div class="text-center">
+                <iframe width="100%" height="200px" src="https://www.youtube.com/embed/LK1TvhUeeLo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="col-md-12 text-center">
+            <h1><b>Apoio</b></h1>
+            <a href="https://www.twitch.tv/m3ndigato" target="_blank">
+                <img src="~/images/mendigato.jpg" class="img-responsive" />
+            </a>
+        </div>
+    </div>
+    <div class="col-md-7 calcular">
         @using (Html.BeginForm("SaveResult", "Home", FormMethod.Post))
         {
-
-            <div class="col-md-offset-2 col-md-5 text-center">
-                <h1><b>Instruções</b></h1>
-                <p><b>Copia a mensagem completa do analyser enviado para você, junto com o nome da pessoa que enviou, cola aqui e seja feliz.</b></p>
-            </div>
-            <div class="container col-md-9">
+        <div class="text-center">
+            <h1><b>Instruções</b></h1>
+            <h3>Copiar a mensagem completa do analyser enviado para você por outro usuário, junto com o nome da pessoa que enviou, colar aqui e seja feliz.</h3>
+        </div>
                 <div class="form-group">
                     <b>Player 1</b>
                     @Html.TextBoxFor(model => model.FirstAnalysers.Message, string.Empty, new { @class = "form-control" })
@@ -30,12 +42,6 @@
                 <center>
                     <input type="submit" class="btn btn-success" value="Calcular" />
                 </center>
-                <div class="col-md-8 text-center col-md-offset-2">
-                    <h4>Gostou? Me manda 10k - Gabi Tolentino / Honbra</h4>
-                    <img src="~/images/gabiTolentinoGif.gif" />
-                </div>
-            </div>
-           
         }
     </div>
 

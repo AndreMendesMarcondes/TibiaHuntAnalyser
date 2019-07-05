@@ -26,9 +26,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Update="ResultTest.cs">
-      <SubType>Component</SubType>
-    </Compile>
+    <Compile Update="ResultTest.cs" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup Condition="$(VisualStudioVersion) == '15.0'">

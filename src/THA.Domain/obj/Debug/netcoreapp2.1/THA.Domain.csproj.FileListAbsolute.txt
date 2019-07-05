@@ -6,4 +6,3 @@ D:\GIT\PessoalGIT\TibiaAnalyzer\TibiaHuntAnalyser\src\THA.Domain\obj\Debug\netco
 D:\GIT\PessoalGIT\TibiaAnalyzer\TibiaHuntAnalyser\src\THA.Domain\obj\Debug\netcoreapp2.1\THA.Domain.AssemblyInfo.cs
 D:\GIT\PessoalGIT\TibiaAnalyzer\TibiaHuntAnalyser\src\THA.Domain\obj\Debug\netcoreapp2.1\THA.Domain.dll
 D:\GIT\PessoalGIT\TibiaAnalyzer\TibiaHuntAnalyser\src\THA.Domain\obj\Debug\netcoreapp2.1\THA.Domain.pdb
-D:\GIT\PessoalGIT\TibiaAnalyzer\TibiaHuntAnalyser\src\THA.Domain\obj\Debug\netcoreapp2.1\THA.Domain.csprojAssemblyReference.cache

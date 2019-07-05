@@ -32,3 +32,4 @@ D:\GIT\PessoalGIT\TibiaAnalyzer\TibiaHuntAnalyser\src\THA.Apresentation\obj\Debu
 D:\GIT\PessoalGIT\TibiaAnalyzer\TibiaHuntAnalyser\src\THA.Apresentation\obj\Debug\netcoreapp2.1\THA.Apresentation.pdb
 D:\GIT\PessoalGIT\TibiaAnalyzer\TibiaHuntAnalyser\src\THA.Apresentation\bin\Debug\netcoreapp2.1\THA.Util.dll
 D:\GIT\PessoalGIT\TibiaAnalyzer\TibiaHuntAnalyser\src\THA.Apresentation\bin\Debug\netcoreapp2.1\THA.Util.pdb
+D:\GIT\PessoalGIT\TibiaAnalyzer\TibiaHuntAnalyser\src\THA.Apresentation\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs

@@ -11,9 +11,7 @@
           "Microsoft.NET.Test.Sdk": "15.8.0",
           "NUnit3TestAdapter": "3.10.0",
           "THA.Domain": "1.0.0",
-          "NUnit": "3.10.1",
-          "Microsoft.Data.Tools.Schema.Sql.UnitTesting": "15.1.0.0",
-          "Microsoft.Data.Tools.Schema.Sql.UnitTestingAdapter": "15.1.0.0"
+          "NUnit": "3.10.1"
         },
         "runtime": {
           "NUnitTestProject1.dll": {}
@@ -1038,22 +1036,6 @@
         "runtime": {
           "THA.Domain.dll": {}
         }
-      },
-      "Microsoft.Data.Tools.Schema.Sql.UnitTesting/15.1.0.0": {
-        "runtime": {
-          "Microsoft.Data.Tools.Schema.Sql.UnitTesting.dll": {
-            "assemblyVersion": "15.1.0.0",
-            "fileVersion": "15.1.61901.3220"
-          }
-        }
-      },
-      "Microsoft.Data.Tools.Schema.Sql.UnitTestingAdapter/15.1.0.0": {
-        "runtime": {
-          "Microsoft.Data.Tools.Schema.Sql.UnitTestingAdapter.dll": {
-            "assemblyVersion": "15.1.0.0",
-            "fileVersion": "15.1.61901.3220"
-          }
-        }
       }
     }
   },
@@ -1562,16 +1544,6 @@
     },
     "THA.Domain/1.0.0": {
       "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Microsoft.Data.Tools.Schema.Sql.UnitTesting/15.1.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Microsoft.Data.Tools.Schema.Sql.UnitTestingAdapter/15.1.0.0": {
-      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }
